@@ -1,0 +1,28 @@
+{
+  "name": "integracao-continua-pgats-trabalho-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:report": "mocha --reporter mochawesome --reporter-options reportDir=reports,reportFilename=resultado"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorsoouto/integracao-continua-pgats-trabalho-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/victorsoouto/integracao-continua-pgats-trabalho-final/issues"
+  },
+  "homepage": "https://github.com/victorsoouto/integracao-continua-pgats-trabalho-final#readme",
+  "dependencies": {
+    "mocha": "^11.7.6"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4"
+  }
+}
