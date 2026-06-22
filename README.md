@@ -49,10 +49,10 @@ A pipeline também possui execução programada:
 
 ```yaml
 schedule:
-  - cron: '0 3 * * *'
+  - cron: '30 2 * * *'
 ```
 
-Executando diariamente às 03:00 UTC.
+Executando diariamente às 23:30 UTC-3.
 
 ---
 
